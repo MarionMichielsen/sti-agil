@@ -1,0 +1,351 @@
+.buttonsGreen {
+  font-family: "Buenos Aires";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  border: none;
+
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 192px;
+  height: 48px;
+  left: 293px;
+  top: 396px;
+
+  background: #99cec8;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.buttonsGreen:hover {
+  background: #52a399;
+}
+
+.buttonsGreen :disabled {
+  background-color: #e4e4e4;
+  color: #7d7d7d;
+}
+
+.buttonsYellow {
+  font-family: "Buenos Aires";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+
+  position: absolute;
+  width: 238px;
+  height: 48px;
+  left: 569px;
+  top: 396px;
+
+  background: #ffe99d;
+  border-radius: 8px;
+}
+
+.buttonsYellow:hover {
+  background-color: #f5d668;
+}
+
+.buttonsYellow :disabled {
+  background-color: #e4e4e4;
+  color: #7d7d7d;
+}
+
+.aktivitet {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #fafafa;
+  /* 1DP */
+
+  box-shadow: 0px 2px 1px -1px #00000033;
+
+  box-shadow: 0px 1px 1px 0px #00000024;
+  
+  box-shadow: 0px 1px 3px 0px #0000001F;
+  
+  height: 181px;
+  width: 1088px;
+  left: 0px;
+  top: 0px;
+
+  border-radius: 15px;
+}
+
+.aktivitetsTitel {
+  position: absolute;
+  left: 15.35%;
+  right: 66.18%;
+  top: 16.57%;
+  bottom: 58.01%;
+
+  font-family: "Quarto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.aktivitetVar {
+  position: absolute;
+  left: 15.62%;
+  right: 70.04%;
+  top: 22.56%;
+  bottom: 70.75%;
+
+  font-family: "Buenos Aires";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+  height: 24px;
+  width: 156px;
+  left: 170px;
+  top: 81px;
+  border-radius: nullpx;
+}
+.aktivitetNär {
+  height: 24px;
+  width: 160px;
+  left: 170px;
+  top: 110px;
+  border-radius: nullpx;
+
+  position: absolute;
+  left: 15.62%;
+  right: 69.67%;
+  top: 60.77%;
+  bottom: 25.97%;
+
+  font-family: "Buenos Aires";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.aktivitetGillar1 {
+  height: 38.00004196166992px;
+  width: 137.28079223632812px;
+  left: 509px;
+  top: 50px;
+  border-radius: 3.5607614517211914px;
+  border: none;
+
+  position: absolute;
+  left: 46.78%;
+  right: 40.6%;
+  top: 27.62%;
+  bottom: 51.38%;
+  margin-top: 10px;
+
+  /* Primary / Mint Green */
+
+  background: #99cec8;
+
+  font-family: "Buenos Aires";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2253px;
+  line-height: 23px;
+}
+.aktivitetGillar2 {
+  height: 38.00004196166992px;
+  width: 137.28079223632812px;
+  left: 509px;
+  top: 50px;
+  border-radius: 3.5607614517211914px;
+  position: absolute;
+  border: none;
+
+  /* Primary / Mint Green */
+
+  background: #99cec8;
+  border-radius: 3.56076px;
+  position: absolute;
+  left: 60.27%;
+  right: 27.12%;
+  top: 27.62%;
+  bottom: 51.38%;
+  margin-top: 10px;
+
+  font-family: "Buenos Aires";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2253px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.aktivitetPassarDig {
+  position: absolute;
+  left: 46.78%;
+  right: 35.39%;
+  top: 10.5%;
+  bottom: 76.24%;
+
+  font-family: "Buenos Aires";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.aktivitetÅlder{
+    position: absolute;
+left: 76.65%;
+right: 18.29%;
+top: 9.39%;
+bottom: 77.35%;
+
+font-family: 'Buenos Aires';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+border: none;
+
+/* Dark Grey */
+
+color: #3A3A3A;
+
+}
+.aktivitetÅlderButton{
+    height: 38.00004196166992px;
+width: 137.28079223632812px;
+left: 830px;
+top: 50px;
+border-radius: 3.5607614517211914px;
+border: none;
+
+    position: absolute;
+left: 76.29%;
+right: 11.1%;
+top: 27.62%;
+bottom: 51.38%;
+margin-top: 10px;
+
+/* Brand color / Orange */
+
+background: #EE7B35;
+border-radius: 3.56076px;
+
+font-family: Buenos Aires;
+font-size: 19px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.aktivitetPris{
+    font-family: Buenos Aires;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+
+text-align: center;
+position: relative;
+width: 1440px;
+height: 2372px;
+
+background: #FFFFFF;
+
+height: 19px;
+width: 85px;
+left: 46px;
+top: 138px;
+border-radius: nullpx;
+
+}
+
+.aktivitetBild{
+    position: absolute;
+left: 3.77%;
+right: 88.42%;
+top: 20.99%;
+bottom: 32.04%;
+
+background: url(aktivitetbild.jpg);
+background-repeat: no-repeat;
+background-position: top;
+filter: drop-shadow(0px 1.08909px 1.08909px rgba(0, 0, 0, 0.25));
+height: 85px;
+width: 85px;
+left: 41px;
+top: 38px;
+border-radius: 50px;
+
+}
+
+.joinButton{
+  position: absolute;
+left: 83.09%;
+right: 2.67%;
+top: 75.77%;
+bottom: 10.86%;
+
+/* Brand color/Yellow */
+
+background: #FFE99D;
+border-radius: 15px;
+border: none;
+height: 40px;
+width: 155px;
+
+border-radius: 15px;
+
+font-family: Buenos Aires;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
